@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: kp-default
+secrets:
+  - name: regcreds
+imagePullSecrets:
+  - name: regcreds
